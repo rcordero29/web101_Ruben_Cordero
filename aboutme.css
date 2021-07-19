@@ -33,3 +33,7 @@ body {
 #car{
   font-weight:bold
 }
+.has-border:hover {
+  background-color: rgba(255, 235, 205, 0.301);
+  border-radius: 25px;
+}
