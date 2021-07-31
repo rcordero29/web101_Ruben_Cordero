@@ -4,13 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/84bf41064e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./contact.css" />
+    <script src="contact.js"></script>
     <title>My Portfolio</title>
   </head>
   <main></main>
-  <header>Contact Me
-    <br>
+  <header>
+    <br />
     <nav>
+      <a
+        <a
+        <input
+        type="button"
+        onclick="window.location.href='index.html'"
+        class="has-border"
+      >
+        home
+      </a>
       <a
         <input
         type="button"
@@ -20,7 +40,8 @@
         Contact Me
       </a>
 
-      <a class="has-border"> Resume </a>
+      <a <input type="button"
+      onclick="window.location.href='resume.html'"class="has-border" class="has-border"> Resume </a>
       <a class="has-border"> My Blog </a>
       <a
         <input
@@ -31,23 +52,36 @@
       >
         About Me
       </a>
-      <a
-        <a
-        <input
-        type="button"
-        onclick="window.location.href='index.html'"
-        class="has-border"
-      >
-        home
-      </a>
     </nav>
   </header>
 
   <body>
-    <p id="red">Phone #</p>
-    <p>555-555-5555</p>
-    <p id="red">Email:</p>
-    <p>BESTCODER@ACA.COM</p>
-    
+    <h3>Lets work together. </h3>
+    <div class="reveal" data-text="915-922-0433" style="background-image:url(phoneicon.png);"></div>
+    <div class="reveal" data-text="Ruben.cordero29@yahoo.com" style="background-image: url(emailicon.png);"></div>
+    </div>
+    <div>
+      <h4>Leave me a comment!</h4>
+      <form>
+      <label for='comments' required >Name</label>
+      <input type="text" id='comments'  ><br>
+      <textarea id="big" rows="4" cols="50" maxlength="500" minlength="20">
+        Leave your comment here!
+        </textarea>
+        <p>How did you hear about me ?</p>
+        <input type="checkbox" class="radio" >
+        <label for='type1'> Classmate</label>
+        <input type="checkbox" class="radio" >
+        <label for='type2'> Resume Submission</label>
+        <input type="checkbox" class="radio">
+        <label for='type3'> LinkedIn</label>
+        <input type="checkbox" class="radio" >
+        <label for='type4'> Coding Academy rec</label>
+        <br>
+        <label for="date">Please Reply Before...</label>
+        <input type="date" value="fsd" id="date" class="form-control" required>
+      </form>
+      <button type="submit" id='button'>Submit</button>
+    </div>
   </body>
 </html>

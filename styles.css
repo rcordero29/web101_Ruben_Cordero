@@ -8,7 +8,6 @@ body {
 /* What kind of selector is this? */
 .logo {
   width: 150px;
-  height: 100px;
   margin: 3% 10%;
 }
 
@@ -17,13 +16,14 @@ header {
   grid-template-columns: 40% 60%;
   width: 100%;
   background-color: rgb(114, 114, 114);
+  align-items: center;
 }
 
 main {
   height: auto;
   width: 100%;
   display: grid;
-  grid-template-columns: 30% 40% 30%;
+  grid-template-columns: 30% 40% 30%; 
 }
 
 /* This is an element within and element selector */
@@ -109,3 +109,7 @@ button {
   letter-spacing: 16px;
   font-style: italic;
 }
+a {
+  text-decoration: none;
+}
+ 
