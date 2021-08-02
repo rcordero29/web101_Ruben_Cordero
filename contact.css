@@ -4,7 +4,7 @@ header {
   font-size: 60px;
   font-weight: 700;
   padding-bottom: 100px;
-  text-align: center;
+  text-align: right;
   background-color: rgb(114, 114, 114);
 }
 
@@ -20,7 +20,7 @@ body {
   background-color: #D0E1D4;
   text-align: center;
   font-size: 90px;
-  ::content:attr(data-text);
+  :content:attr(data-text);
   align-items:center;
   text-align:cetner;
 }
@@ -144,4 +144,22 @@ button{
 }
 input[type="checkbox"] {
   transform:scale(2, 2);
+}
+
+@media(max-width: 500px) { body , header, form {
+  display: flex;
+  flex-direction: column;}
+
+@media{
+  .reveal{
+  width: 300px;
+  height: 300px;
+  margin: 8px;
+  }
+}
+
+@media{
+  .reveal:after{
+  font-size: 20px;
+  }
 }

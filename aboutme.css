@@ -28,12 +28,32 @@ body {
   background-size: cover;
   background-color: #acacac;
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
 }
-#car{
-  font-weight:bold
+#car {
+  font-weight: bold;
 }
 .has-border:hover {
   background-color: rgba(255, 235, 205, 0.301);
   border-radius: 25px;
+}
+
+.two {
+  display: flex;
+  flex-direction: row;
+  border: crimson solid 5px;
+  height: 100vh;
+  flex-basis: 100%;
+}
+.side {
+  border: rgb(238, 255, 0) solid 5px;
+  flex: 1 1 30%;
+}
+.main {
+  border: rgb(133, 4, 255) solid 5px;
+  flex: 1 1 70%;
+}
+img {
+  width: 800px;
+  height: auto;
 }
